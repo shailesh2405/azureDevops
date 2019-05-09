@@ -1,0 +1,6 @@
+applications:
+- name: infovity-pcf
+path: target/infovity-pcf-0.0.1-SNAPSHOT.jar
+domain: cfapps.io
+memory: 950M
+instances: 1

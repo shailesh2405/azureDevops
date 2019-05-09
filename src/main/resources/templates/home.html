@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p>Hello PCF</p>
+<form action="/wishMe">
+<input type="text" name="name"></input>
+<input type="submit" name="submit"></input>
+<div>Web Application. Passed parameter : th:text="${message}"</div>
+<h1 th:text="${message}" ></h1>
+</form>
+</body>
+</html>
